@@ -1,0 +1,61 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+E_atm/
+
+# Python environment files
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+*.dist-info/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+*.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Model files (trained models)
+models/*.clf
+models/*.pkl
+*.h5
+*.pt
+
+# Face recognition data (optional: skip if large)
+Dataset/
+__MACOSX/
+
+# Media files (if you don't want to push large images/videos)
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Misc
+*.bak
+*.tmp
+*.swp
